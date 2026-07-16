@@ -32,6 +32,8 @@ Inspecting the page source and network traffic in Burp's HTTP history revealed t
 GET /image?filename=36.jpg
 ```
 
+![Original request in Burp Proxy](images/01-original-request.png)
+
 The `filename` parameter is the vector. Same pattern as the simple case lab, but the server might be filtering this time.
 
 ---
@@ -73,6 +75,8 @@ The response contained the contents of `/etc/passwd`. The filter only blocked re
 ```
 /etc/passwd
 ```
+
+![Successful exploit response with /etc/passwd contents](images/02-successful-exploit.png)
 
 No `../` sequences needed. The application accepts an absolute filesystem path directly.
 
