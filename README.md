@@ -48,6 +48,9 @@ portswigger-academy/
 │   ├── 01 - File Path Traversal - Simple Case/
 │   │   └── README.md
 │   └── 02 - File Path Traversal - Traversal Sequences Blocked with Absolute Path Bypass/
+│       ├── images/
+│       │   ├── 01-original-request.png
+│       │   └── 02-successful-exploit.png
 │       └── README.md
 └── Access Control/
     ├── 01 - Unprotected Admin Functionality/
