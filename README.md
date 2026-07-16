@@ -46,30 +46,22 @@ portswigger-academy/
 ├── ROADMAP.md
 ├── Path Traversal/
 │   └── 01 - File Path Traversal - Simple Case/
-│       ├── README.md
-│       └── screenshots/
+│       └── README.md
 └── Access Control/
     ├── 01 - Unprotected Admin Functionality/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     ├── 02 - Unprotected Admin Functionality With Unpredictable URL/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     ├── 03 - User Role Controlled By Request Parameter/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     ├── 04 - User ID Controlled By Request Parameter/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     ├── 05 - User ID Controlled By Request Parameter With Data Leakage In Redirect/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     ├── 06 - User ID Controlled By Request Parameter With Password Disclosure/
-    │   ├── README.md
-    │   └── screenshots/
+    │   └── README.md
     └── 07 - Insecure Direct Object References/
-        ├── README.md
-        └── screenshots/
+        └── README.md
 ```
 
 ---
