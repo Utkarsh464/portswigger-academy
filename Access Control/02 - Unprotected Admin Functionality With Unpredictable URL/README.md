@@ -111,16 +111,6 @@ Same as Lab 01. Any attacker who inspects the page source can find the admin URL
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. The JavaScript code showing the admin URL
-> 2. The admin panel after navigating to the discovered path
-> 3. The delete request in Burp
-
----
-
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
