@@ -121,16 +121,6 @@ An attacker can:
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. Burp response showing Carlos's HTML with the password in the input field
-> 2. The login request using the stolen password
-> 3. The admin panel with Carlos's delete button
-
----
-
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

@@ -108,16 +108,6 @@ Any authenticated user can:
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. The original invoice download request
-> 2. The modified request with `id=2`
-> 3. The response showing the other user's invoice with credit card data
-
----
-
 ## References
 
 - [PortSwigger: IDOR](https://portswigger.net/web-security/access-control/idor)

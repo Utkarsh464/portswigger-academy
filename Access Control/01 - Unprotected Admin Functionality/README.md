@@ -115,16 +115,6 @@ Any unauthenticated user can:
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. Burp request to `/robots.txt` showing the disallowed path
-> 2. The admin panel loaded without authentication
-> 3. The delete request and lab completion
-
----
-
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
