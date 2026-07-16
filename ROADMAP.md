@@ -136,7 +136,7 @@ Checking off labs as I go.
 ## **Path Traversal (8 labs)**
 
 - [x] File path traversal, simple case
-- [ ] File path traversal, traversal sequences blocked with absolute path bypass
+- [x] File path traversal, traversal sequences blocked with absolute path bypass
 - [ ] File path traversal, traversal sequences stripped non-recursively
 - [ ] File path traversal, traversal sequences stripped with superfluous URL-decode
 - [ ] File path traversal, validation of start of path

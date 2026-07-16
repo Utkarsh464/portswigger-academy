@@ -22,7 +22,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 
 | Category | Labs Solved | Status |
 |---|---|---|
-| Path Traversal | 1 / 8 | In progress |
+| Path Traversal | 2 / 8 | In progress |
 | Access Control | 7 / 13 | In progress |
 
 More categories coming as I work through them.
@@ -32,7 +32,7 @@ More categories coming as I work through them.
 ## Progress
 
 ```
-████████░░░░░░░░░░░░  8 / ~250  (3%)
+█████████░░░░░░░░░░░  9 / ~250  (4%)
 ```
 
 ---
@@ -45,7 +45,9 @@ portswigger-academy/
 ├── LICENSE
 ├── ROADMAP.md
 ├── Path Traversal/
-│   └── 01 - File Path Traversal - Simple Case/
+│   ├── 01 - File Path Traversal - Simple Case/
+│   │   └── README.md
+│   └── 02 - File Path Traversal - Traversal Sequences Blocked with Absolute Path Bypass/
 │       └── README.md
 └── Access Control/
     ├── 01 - Unprotected Admin Functionality/
