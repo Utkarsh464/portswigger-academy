@@ -122,16 +122,6 @@ In some cases, path traversal can lead to RCE if the attacker can write files (l
 
 ---
 
-## Screenshots
-
-> No screenshots yet. I'd capture:
->
-> 1. The original image request in Burp
-> 2. The modified request with `../../../etc/passwd`
-> 3. The response showing `/etc/passwd` contents
-
----
-
 ## References
 
 - [PortSwigger: File path traversal](https://portswigger.net/web-security/file-path-traversal)

@@ -107,16 +107,6 @@ Any authenticated user can view any other user's private data:
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. The original account details request for `wiener`
-> 2. The modified request with `id=carlos`
-> 3. The response showing Carlos's API key
-
----
-
 ## References
 
 - [PortSwigger: Access control (IDOR)](https://portswigger.net/web-security/access-control/idor)

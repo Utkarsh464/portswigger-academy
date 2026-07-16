@@ -113,16 +113,6 @@ Same as Lab 04 — any authenticated user can access any other user's private da
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. The original request to `/accountDetails?id=wiener`
-> 2. The modified request with `id=carlos`
-> 3. The 302 response body showing Carlos's details before the redirect
-
----
-
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

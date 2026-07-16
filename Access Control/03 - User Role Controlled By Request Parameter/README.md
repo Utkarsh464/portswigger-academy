@@ -105,16 +105,6 @@ Any user can escalate to admin by modifying a single cookie value. This gives fu
 
 ---
 
-## Screenshots
-
-> I'd capture:
->
-> 1. Burp showing the `Admin=false` cookie
-> 2. The modified request with `Admin=true`
-> 3. The admin panel now visible
-
----
-
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
