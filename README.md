@@ -24,7 +24,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 |---|---|---|
 | Path Traversal | 2 / 8 | In progress |
 | Access Control | 7 / 13 | In progress |
-| Cross-Site Scripting (XSS) | 1 / 30+ | In progress |
+| Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
 
 More categories coming as I work through them.
 
@@ -33,7 +33,7 @@ More categories coming as I work through them.
 ## Progress
 
 ```
-█████████░░░░░░░░░░░  10 / ~250  (4%)
+█████████░░░░░░░░░░░  11 / ~250  (4%)
 ```
 
 ---
@@ -69,9 +69,13 @@ portswigger-academy/
 │   └── 07 - Insecure Direct Object References/
 │       └── README.md
 └── Cross-Site Scripting (XSS)/
-    └── 01 - Reflected XSS into HTML context with nothing encoded/
+    ├── 01 - Reflected XSS into HTML context with nothing encoded/
+    │   ├── images/
+    │   │   └── 01-xss-payload-in-search-box.png
+    │   └── README.md
+    └── 02 - Stored XSS into HTML context with nothing encoded/
         ├── images/
-        │   └── 01-xss-payload-in-search-box.png
+        │   └── 01-stored-xss-comment-payload.png
         └── README.md
 ```
 
