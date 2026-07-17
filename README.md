@@ -24,6 +24,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 |---|---|---|
 | Path Traversal | 2 / 8 | In progress |
 | Access Control | 7 / 13 | In progress |
+| Cross-Site Scripting (XSS) | 1 / 30+ | In progress |
 
 More categories coming as I work through them.
 
@@ -32,7 +33,7 @@ More categories coming as I work through them.
 ## Progress
 
 ```
-█████████░░░░░░░░░░░  9 / ~250  (4%)
+█████████░░░░░░░░░░░  10 / ~250  (4%)
 ```
 
 ---
@@ -52,20 +53,25 @@ portswigger-academy/
 │       │   ├── 01-original-request.png
 │       │   └── 02-successful-exploit.png
 │       └── README.md
-└── Access Control/
-    ├── 01 - Unprotected Admin Functionality/
-    │   └── README.md
-    ├── 02 - Unprotected Admin Functionality With Unpredictable URL/
-    │   └── README.md
-    ├── 03 - User Role Controlled By Request Parameter/
-    │   └── README.md
-    ├── 04 - User ID Controlled By Request Parameter/
-    │   └── README.md
-    ├── 05 - User ID Controlled By Request Parameter With Data Leakage In Redirect/
-    │   └── README.md
-    ├── 06 - User ID Controlled By Request Parameter With Password Disclosure/
-    │   └── README.md
-    └── 07 - Insecure Direct Object References/
+├── Access Control/
+│   ├── 01 - Unprotected Admin Functionality/
+│   │   └── README.md
+│   ├── 02 - Unprotected Admin Functionality With Unpredictable URL/
+│   │   └── README.md
+│   ├── 03 - User Role Controlled By Request Parameter/
+│   │   └── README.md
+│   ├── 04 - User ID Controlled By Request Parameter/
+│   │   └── README.md
+│   ├── 05 - User ID Controlled By Request Parameter With Data Leakage In Redirect/
+│   │   └── README.md
+│   ├── 06 - User ID Controlled By Request Parameter With Password Disclosure/
+│   │   └── README.md
+│   └── 07 - Insecure Direct Object References/
+│       └── README.md
+└── Cross-Site Scripting (XSS)/
+    └── 01 - Reflected XSS into HTML context with nothing encoded/
+        ├── images/
+        │   └── 01-xss-payload-in-search-box.png
         └── README.md
 ```
 
