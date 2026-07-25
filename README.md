@@ -25,15 +25,14 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 | Path Traversal | 2 / 8 | In progress |
 | Access Control | 7 / 13 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
-
-More categories coming as I work through them.
+| SSRF | 2 / 6 | In progress |
 
 ---
 
 ## Progress
 
 ```
-█████████░░░░░░░░░░░  11 / ~250  (4%)
+██████████░░░░░░░░░░  13 / ~250  (5%)
 ```
 
 ---
@@ -68,14 +67,25 @@ portswigger-academy/
 │   │   └── README.md
 │   └── 07 - Insecure Direct Object References/
 │       └── README.md
-└── Cross-Site Scripting (XSS)/
-    ├── 01 - Reflected XSS into HTML context with nothing encoded/
+├── Cross-Site Scripting (XSS)/
+│   ├── 01 - Reflected XSS into HTML context with nothing encoded/
+│   │   ├── images/
+│   │   │   └── 01-xss-payload-in-search-box.png
+│   │   └── README.md
+│   └── 02 - Stored XSS into HTML context with nothing encoded/
+│       ├── images/
+│       │   └── 01-stored-xss-comment-payload.png
+│       └── README.md
+└── SSRF/
+    ├── 01 - Basic SSRF against the local server/
     │   ├── images/
-    │   │   └── 01-xss-payload-in-search-box.png
+    │   │   └── 01-basic-ssrf-localhost.png
     │   └── README.md
-    └── 02 - Stored XSS into HTML context with nothing encoded/
+    └── 02 - Basic SSRF against another back-end system/
         ├── images/
-        │   └── 01-stored-xss-comment-payload.png
+        │   ├── 01-stock-check-request.png
+        │   ├── 02-intruder-scan-192-168-0-x.png
+        │   └── 03-delete-carlos-admin-panel.png
         └── README.md
 ```
 
@@ -125,7 +135,6 @@ I'm working through the remaining labs in order. Next up:
 - SQL Injection
 - Cross-Site Scripting (XSS)
 - CSRF
-- SSRF
 - XXE
 - And everything else
 
