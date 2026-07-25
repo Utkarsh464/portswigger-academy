@@ -221,7 +221,6 @@ Checking off labs as I go.
 
 ---
 
-**Legend:** `[x]` = solved | `[ ]` = not yet
 
 ---
 
