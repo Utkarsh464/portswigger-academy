@@ -176,8 +176,8 @@ Checking off labs as I go.
 
 ## Server-Side Request Forgery (SSRF) (6 labs)
 
-- [ ] Basic SSRF against the local server
-- [ ] Basic SSRF against another back-end system
+- [x] Basic SSRF against the local server
+- [x] Basic SSRF against another back-end system
 - [ ] SSRF with blacklist-based input filter
 - [ ] SSRF with whitelist-based input filter
 - [ ] SSRF with filter bypass via open redirection vulnerability
