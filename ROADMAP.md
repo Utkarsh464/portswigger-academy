@@ -6,7 +6,7 @@ Checking off labs as I go.
 
 ## SQL Injection (18 labs)
 
-- [ ] SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+- [x] SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 - [ ] SQL injection vulnerability allowing login bypass
 - [ ] SQL injection attack, querying the database type and version on Oracle
 - [ ] SQL injection attack, querying the database type and version on MySQL and Microsoft

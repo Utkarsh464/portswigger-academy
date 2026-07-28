@@ -26,13 +26,14 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 | Access Control | 7 / 13 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
 | SSRF | 2 / 6 | In progress |
+| SQL Injection | 1 / 18 | In progress |
 
 ---
 
 ## Progress
 
 ```
-██████████░░░░░░░░░░  13 / ~250  (5%)
+██████████░░░░░░░░░░  14 / ~250  (6%)
 ```
 
 ---
@@ -75,6 +76,12 @@ portswigger-academy/
 │   └── 02 - Stored XSS into HTML context with nothing encoded/
 │       ├── images/
 │       │   └── 01-stored-xss-comment-payload.png
+│       └── README.md
+├── SQL Injection/
+│   └── 01 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
+│       ├── images/
+│       │   ├── 01-burp-repeater-sqli-payload.png
+│       │   └── 02-burp-repeater-successful-response.png
 │       └── README.md
 └── SSRF/
     ├── 01 - Basic SSRF against the local server/
@@ -132,7 +139,7 @@ I'm working through the remaining labs in order. Next up:
 
 - More Path Traversal labs
 - Access Control labs (horizontal privilege escalation)
-- SQL Injection
+- More SQL Injection labs
 - Cross-Site Scripting (XSS)
 - CSRF
 - XXE
