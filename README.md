@@ -23,7 +23,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 | Category | Labs Solved | Status |
 |---|---|---|
 | Path Traversal | 2 / 8 | In progress |
-| Access Control | 7 / 13 | In progress |
+| Access Control | 8 / 13 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
 | SSRF | 2 / 6 | In progress |
 | SQL Injection | 2 / 18 | In progress |
@@ -33,7 +33,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 ## Progress
 
 ```
-██████████░░░░░░░░░░  15 / ~250  (6%)
+██████████░░░░░░░░░░  16 / ~250  (6%)
 ```
 
 ---
@@ -66,7 +66,11 @@ portswigger-academy/
 │   │   └── README.md
 │   ├── 06 - User ID Controlled By Request Parameter With Password Disclosure/
 │   │   └── README.md
-│   └── 07 - Insecure Direct Object References/
+│   ├── 07 - Insecure Direct Object References/
+│   │   └── README.md
+│   └── 08 - User Role Can Be Modified In User Profile/
+│       ├── images/
+│       │   └── 01-roleid-injected-in-change-email-request.png
 │       └── README.md
 ├── Cross-Site Scripting (XSS)/
 │   ├── 01 - Reflected XSS into HTML context with nothing encoded/
