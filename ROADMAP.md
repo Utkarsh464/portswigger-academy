@@ -144,7 +144,7 @@ Checking off labs as I go.
 - [ ] File path traversal, validation of file extension with out-of-band resource load
 - [ ] Lab: Multi-step path traversal
 
-## **Access Control (13 labs)**
+## **Access Control (14 labs)**
 
 - [x] Unprotected admin functionality
 - [x] Unprotected admin functionality with unpredictable URL
@@ -154,6 +154,7 @@ Checking off labs as I go.
 - [x] User ID controlled by request parameter with password disclosure
 - [x] Insecure direct object references
 - [x] User role can be modified in user profile
+- [x] User ID controlled by request parameter, with unpredictable user IDs
 - [ ] URL-based access control can be circumvented
 - [ ] Method-based access control can be circumvented
 - [ ] Multi-step process with no access control on one step
