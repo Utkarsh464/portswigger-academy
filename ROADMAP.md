@@ -25,8 +25,8 @@ Checking off labs as I go.
 
 ## Cross-Site Scripting (36 labs)
 
-- [ ] Reflected XSS into HTML context with nothing encoded
-- [ ] Stored XSS into HTML context with nothing encoded
+- [x] Reflected XSS into HTML context with nothing encoded
+- [x] Stored XSS into HTML context with nothing encoded
 - [ ] DOM XSS in `document.write` sink using source `location.search`
 - [ ] DOM XSS in `innerHTML` sink using source `location.search`
 - [ ] DOM XSS in jQuery anchor `href` attribute sink using `location.search` source
