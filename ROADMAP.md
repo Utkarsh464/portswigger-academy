@@ -155,7 +155,7 @@ Checking off labs as I go.
 - [x] Insecure direct object references
 - [x] User role can be modified in user profile
 - [x] User ID controlled by request parameter, with unpredictable user IDs
-- [ ] URL-based access control can be circumvented
+- [x] URL-based access control can be circumvented
 - [ ] Method-based access control can be circumvented
 - [ ] Multi-step process with no access control on one step
 - [ ] Referer-based access control
