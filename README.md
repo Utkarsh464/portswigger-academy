@@ -23,7 +23,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 | Category | Labs Solved | Status |
 |---|---|---|
 | Path Traversal | 2 / 8 | In progress |
-| Access Control | 9 / 14 | In progress |
+| Access Control | 10 / 14 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
 | SSRF | 2 / 6 | In progress |
 | SQL Injection | 2 / 18 | In progress |
@@ -33,7 +33,7 @@ This repo documents what I learn. If someone else finds it useful, that's a bonu
 ## Progress
 
 ```
-██████████░░░░░░░░░░  17 / ~250  (7%)
+███████████░░░░░░░░░  18 / ~250  (7%)
 ```
 
 ---
@@ -76,6 +76,13 @@ portswigger-academy/
 │       ├── images/
 │       │   ├── 01-carlos-guid-from-blog-post.png
 │       │   └── 02-carlos-account-apikey.png
+│       └── README.md
+│   └── 10 - URL-Based Access Control Can Be Circumvented/
+│       ├── images/
+│       │   ├── 01-admin-blocked-403.png
+│       │   ├── 02-x-original-url-invalid-test.png
+│       │   ├── 03-x-original-url-admin-panel.png
+│       │   └── 04-x-original-url-delete-carlos.png
 │       └── README.md
 ├── Cross-Site Scripting (XSS)/
 │   ├── 01 - Reflected XSS into HTML context with nothing encoded/
