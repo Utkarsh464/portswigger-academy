@@ -43,6 +43,8 @@ Location: /admin
 
 ![administrator POST request upgrading carlos](images/01-admin-post-upgrade-carlos.png)
 
+![wiener account before upgrade](images/02-wiener-account-before-upgrade.png)
+
 That confirmed the endpoint, method, and parameters used by the legitimate admin workflow.
 
 ---
@@ -67,7 +69,7 @@ HTTP/1.1 302 Found
 Location: /admin
 ```
 
-![GET request upgrading wiener](images/02-get-method-upgrade-wiener.png)
+![GET request upgrading wiener](images/03-get-method-upgrade-wiener.png)
 
 ---
 
@@ -82,8 +84,6 @@ Location: /admin
 7. Converted the request to `GET` and changed the target username to `wiener`.
 8. Sent `GET /admin-roles?username=wiener&action=upgrade`.
 9. The application redirected to `/admin`, and the lab was solved.
-
-![wiener account after method bypass](images/03-wiener-account-after-upgrade.png)
 
 ---
 
