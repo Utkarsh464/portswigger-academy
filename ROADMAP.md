@@ -185,7 +185,7 @@ Checking off labs as I go.
 - [x] URL-based access control can be circumvented
 - [x] Method-based access control can be circumvented
 - [x] Multi-step process with no access control on one step
-- [ ] Referer-based access control
+- [x] Referer-based access control
 
 ## Authentication (14 labs)
 
