@@ -15,14 +15,14 @@ it.
 
 | Category | Labs Solved | Status |
 |---|---|---|
-| Access Control | 11 / 14 | In progress |
+| Access Control | 12 / 14 | In progress |
 | Path Traversal | 2 / 8 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
 | SSRF | 2 / 6 | In progress |
 | SQL Injection | 2 / 18 | In progress |
 
 ```
-██░░░░░░░░░░░░░░░░░░  19 / ~250  (8%)
+███░░░░░░░░░░░░░░░░░  20 / ~250  (8%)
 ```
 
 ---
@@ -31,7 +31,7 @@ it.
 
 ```
 portswigger-academy/
-├── Access Control/                         11 / 14
+├── Access Control/                         12 / 14
 │   ├── 01 - Unprotected Admin Functionality/
 │   ├── 02 - Unprotected Admin Functionality With Unpredictable URL/
 │   ├── 03 - User Role Controlled By Request Parameter/
@@ -42,7 +42,8 @@ portswigger-academy/
 │   ├── 08 - User Role Can Be Modified In User Profile/
 │   ├── 09 - User ID Controlled By Request Parameter With Unpredictable User IDs/
 │   ├── 10 - URL-Based Access Control Can Be Circumvented/
-│   └── 11 - Method-Based Access Control Can Be Circumvented/
+│   ├── 11 - Method-Based Access Control Can Be Circumvented/
+│   └── 12 - Multi-Step Process With No Access Control On One Step/
 ├── Path Traversal/                           # 2 / 8
 │   ├── 01 - File Path Traversal - Simple Case/
 │   └── 02 - File Path Traversal - Traversal Sequences Blocked with Absolute Path Bypass/

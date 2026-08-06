@@ -157,7 +157,7 @@ Checking off labs as I go.
 - [x] User ID controlled by request parameter, with unpredictable user IDs
 - [x] URL-based access control can be circumvented
 - [x] Method-based access control can be circumvented
-- [ ] Multi-step process with no access control on one step
+- [x] Multi-step process with no access control on one step
 - [ ] Referer-based access control
 - [ ] Insecure direct object references (horizontal privilege escalation)
 
