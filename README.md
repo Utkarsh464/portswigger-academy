@@ -21,10 +21,6 @@ it.
 | SSRF | 2 / 7 | In progress |
 | SQL Injection | 2 / 18 | In progress |
 
-```
-███░░░░░░░░░░░░░░░░░  20 / ~250  (8%)
-```
-
 ---
 
 ## Writeups
