@@ -15,10 +15,10 @@ it.
 
 | Category | Labs Solved | Status |
 |---|---|---|
-| Access Control | 12 / 14 | In progress |
-| Path Traversal | 2 / 8 | In progress |
-| Cross-Site Scripting (XSS) | 2 / 30+ | In progress |
-| SSRF | 2 / 6 | In progress |
+| Access Control | 12 / 13 | In progress |
+| Path Traversal | 2 / 6 | In progress |
+| Cross-Site Scripting (XSS) | 2 / 30 | In progress |
+| SSRF | 2 / 7 | In progress |
 | SQL Injection | 2 / 18 | In progress |
 
 ```
@@ -31,7 +31,7 @@ it.
 
 ```
 portswigger-academy/
-├── Access Control/                         12 / 14
+├── Access Control/                         12 / 13
 │   ├── 01 - Unprotected Admin Functionality/
 │   ├── 02 - Unprotected Admin Functionality With Unpredictable URL/
 │   ├── 03 - User Role Controlled By Request Parameter/
@@ -44,13 +44,13 @@ portswigger-academy/
 │   ├── 10 - URL-Based Access Control Can Be Circumvented/
 │   ├── 11 - Method-Based Access Control Can Be Circumvented/
 │   └── 12 - Multi-Step Process With No Access Control On One Step/
-├── Path Traversal/                           # 2 / 8
+├── Path Traversal/                           # 2 / 6
 │   ├── 01 - File Path Traversal - Simple Case/
 │   └── 02 - File Path Traversal - Traversal Sequences Blocked with Absolute Path Bypass/
-├── Cross-Site Scripting (XSS)/               # 2 / 30+
+├── Cross-Site Scripting (XSS)/               # 2 / 30
 │   ├── 01 - Reflected XSS into HTML context with nothing encoded/
 │   └── 02 - Stored XSS into HTML context with nothing encoded/
-├── SSRF/                                     # 2 / 6
+├── SSRF/                                     # 2 / 7
 │   ├── 01 - Basic SSRF against the local server/
 │   └── 02 - Basic SSRF against another back-end system/
 └── SQL Injection/                            # 2 / 18
