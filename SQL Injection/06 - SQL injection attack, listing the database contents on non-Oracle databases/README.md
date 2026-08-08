@@ -73,8 +73,6 @@ The response displayed the list of database tables.
 
 Scanning the unfolded table names, the credential table was the one with the random suffix — `users_gpnikx`. The suffix is a per-lab random value, so the exact name is different every time; what matters is identifying the table that clearly holds application users.
 
-![table names displayed in the response](images/01-enumerate-database-tables.png)
-
 ---
 
 ## 4. Enumerating the users table's columns
