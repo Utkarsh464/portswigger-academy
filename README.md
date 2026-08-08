@@ -19,7 +19,7 @@ it.
 | Path Traversal | 2 / 6 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30 | In progress |
 | SSRF | 2 / 7 | In progress |
-| SQL Injection | 5 / 18 | In progress |
+| SQL Injection | 6 / 18 | In progress |
 
 ---
 
@@ -50,12 +50,13 @@ portswigger-academy/
 ├── SSRF/                                     # 2 / 7
 │   ├── 01 - Basic SSRF against the local server/
 │   └── 02 - Basic SSRF against another back-end system/
-└── SQL Injection/                            # 5 / 18
+└── SQL Injection/                            # 6 / 18
     ├── 01 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data/
     ├── 02 - SQL injection vulnerability allowing login bypass/
     ├── 03 - SQL injection attack, querying the database type and version on Oracle/
     ├── 04 - SQL injection UNION attack, determining the number of columns returned by the query/
-    └── 05 - SQL injection attack, querying the database type and version on MySQL and Microsoft/
+    ├── 05 - SQL injection attack, querying the database type and version on MySQL and Microsoft/
+    └── 06 - SQL injection attack, listing the database contents on non-Oracle databases/
 ```
 
 Writeups with a `images/` folder include screenshots taken while solving the
