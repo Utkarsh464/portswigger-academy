@@ -35,7 +35,7 @@ it.
 | Path Traversal | 2 / 6 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30 | In progress |
 | SSRF | 2 / 7 | In progress |
-| SQL Injection | 8 / 18 | In progress |
+| SQL Injection | 9 / 18 | In progress |
 
 ---
 
@@ -93,7 +93,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 
 ### SQL Injection
 
-8 / 18 — in progress
+9 / 18 — in progress
 
 | # | Lab | Difficulty | What it covers |
 |---|---|---|---|
@@ -105,6 +105,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 | 6 | [SQL injection attack, listing the database contents on non-Oracle databases](SQL%20Injection/06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases) | Practitioner | Enumerate schema/data via `information_schema`, dump credentials. |
 | 7 | [SQL injection with filter bypass via XML encoding](SQL%20Injection/07%20-%20SQL%20injection%20with%20filter%20bypass%20via%20XML%20encoding) | Practitioner | WAF-encoded `UNION` payload in XML to bypass the filter. |
 | 8 | [SQL injection attack, listing the database contents on Oracle](SQL%20Injection/08%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle) | Practitioner | Enumerate Oracle DB via `all_tables`/`all_tab_columns`, dump credentials. |
+| 9 | [SQL injection UNION attack, finding a column containing text](SQL%20Injection/09%20-%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text) | Practitioner | Probe `UNION` columns with a string to find a text-compatible position. |
 
 ---
 
