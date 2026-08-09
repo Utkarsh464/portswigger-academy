@@ -107,7 +107,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 | 8 | [SQL injection attack, listing the database contents on Oracle](SQL%20Injection/08%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle) | Practitioner | Enumerate Oracle DB via `all_tables`/`all_tab_columns`, dump credentials. |
 | 9 | [SQL injection UNION attack, finding a column containing text](SQL%20Injection/09%20-%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text) | Practitioner | Probe `UNION` columns with a string to find a text-compatible position. |
 | 10 | [SQL injection UNION attack, retrieving data from other tables](SQL%20Injection/10%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables) | Practitioner | `UNION SELECT username,password FROM users--` to dump credentials. |
-| 11 | [SQL injection UNION attack, retrieving multiple values in a single column](SQL%20Injection/11%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column) | Practitioner | `||` concatenation to dump `username~password` via one column. |
+| 11 | [SQL injection UNION attack, retrieving multiple values in a single column](SQL%20Injection/11%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column) | Practitioner | `\|\|` concatenation to dump `username~password` via one column. |
 
 ---
 
