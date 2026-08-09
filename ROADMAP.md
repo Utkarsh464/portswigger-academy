@@ -11,7 +11,7 @@ Checking off labs as I go.
 - [x] SQL injection attack, querying the database type and version on Oracle
 - [x] SQL injection attack, querying the database type and version on MySQL and Microsoft
 - [x] SQL injection attack, listing the database contents on non-Oracle databases
-- [ ] SQL injection attack, listing the database contents on Oracle
+- [x] SQL injection attack, listing the database contents on Oracle
 - [x] SQL injection UNION attack, determining the number of columns returned by the query
 - [ ] SQL injection UNION attack, finding a column containing text
 - [ ] SQL injection UNION attack, retrieving data from other tables
