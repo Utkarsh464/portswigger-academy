@@ -23,7 +23,7 @@ Checking off labs as I go.
 - [ ] Blind SQL injection with time delays and information retrieval
 - [ ] Blind SQL injection with out-of-band interaction
 - [ ] Blind SQL injection with out-of-band data exfiltration
-- [ ] SQL injection with filter bypass via XML encoding
+- [x] SQL injection with filter bypass via XML encoding
 
 ## Cross-Site Scripting (XSS) (30 labs)
 

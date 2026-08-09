@@ -19,7 +19,7 @@ it.
 | Path Traversal | 2 / 6 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30 | In progress |
 | SSRF | 2 / 7 | In progress |
-| SQL Injection | 6 / 18 | In progress |
+| SQL Injection | 7 / 18 | In progress |
 
 ---
 
@@ -59,7 +59,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 - [1. Basic SSRF against the local server](SSRF/01%20-%20Basic%20SSRF%20against%20the%20local%20server)
 - [2. Basic SSRF against another back-end system](SSRF/02%20-%20Basic%20SSRF%20against%20another%20back-end%20system)
 
-**SQL Injection** (6 / 18)
+**SQL Injection** (7 / 18)
 
 - [1. SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](SQL%20Injection/01%20-%20SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data)
 - [2. SQL injection vulnerability allowing login bypass](SQL%20Injection/02%20-%20SQL%20injection%20vulnerability%20allowing%20login%20bypass)
@@ -67,6 +67,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 - [4. SQL injection UNION attack, determining the number of columns returned by the query](SQL%20Injection/04%20-%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query)
 - [5. SQL injection attack, querying the database type and version on MySQL and Microsoft](SQL%20Injection/05%20-%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft)
 - [6. SQL injection attack, listing the database contents on non-Oracle databases](SQL%20Injection/06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases)
+- [7. SQL injection with filter bypass via XML encoding](SQL%20Injection/07%20-%20SQL%20injection%20with%20filter%20bypass%20via%20XML%20encoding)
 
 ---
 
