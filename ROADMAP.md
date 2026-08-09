@@ -14,7 +14,7 @@ Checking off labs as I go.
 - [x] SQL injection attack, listing the database contents on Oracle
 - [x] SQL injection UNION attack, determining the number of columns returned by the query
 - [x] SQL injection UNION attack, finding a column containing text
-- [ ] SQL injection UNION attack, retrieving data from other tables
+- [x] SQL injection UNION attack, retrieving data from other tables
 - [ ] SQL injection UNION attack, retrieving multiple values in a single column
 - [ ] Blind SQL injection with conditional responses
 - [ ] Blind SQL injection with conditional errors
