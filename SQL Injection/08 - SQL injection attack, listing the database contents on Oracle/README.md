@@ -241,6 +241,13 @@ Full database disclosure: schema, table and column names, and arbitrary credenti
 
 ---
 
+## Related Labs
+
+- [03 - SQL injection attack, querying the database type and version on Oracle](../03%20-%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/README.md) — same Oracle backend; version gives way to full `all_tables` enumeration
+- [06 - SQL injection attack, listing the database contents on non-Oracle databases](../06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/README.md) — the same enumeration method against a non-Oracle schema
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection](https://portswigger.net/web-security/sql-injection)

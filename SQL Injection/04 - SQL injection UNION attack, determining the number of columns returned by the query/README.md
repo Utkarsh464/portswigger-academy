@@ -126,6 +126,13 @@ Determining the column count is the prelude to a full `UNION`-based data theft: 
 
 ---
 
+## Related Labs
+
+- [09 - SQL injection UNION attack, finding a column containing text](../09%20-%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/README.md) — the first UNION step — size the query, then locate a text column
+- [06 - SQL injection attack, listing the database contents on non-Oracle databases](../06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/README.md) — the same UNION foundation extended into schema enumeration
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks)

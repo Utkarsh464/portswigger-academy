@@ -156,6 +156,14 @@ A reflective SQL injection against an unbound `UNION` gives complete read access
 
 ---
 
+## Related Labs
+
+- [09 - SQL injection UNION attack, finding a column containing text](../09%20-%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/README.md) — needs a text-compatible column, established there first
+- [11 - SQL injection UNION attack, retrieving multiple values in a single column](../11%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/README.md) — both dump `username`/`password`; this one gets two full columns
+- [06 - SQL injection attack, listing the database contents on non-Oracle databases](../06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/README.md) — same `information_schema`-style credential retrieval
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks)

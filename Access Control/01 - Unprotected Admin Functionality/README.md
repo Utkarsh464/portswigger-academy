@@ -115,6 +115,12 @@ Any unauthenticated user can:
 
 ---
 
+## Related Labs
+
+- [02 - Unprotected Admin Functionality With Unpredictable URL](../02%20-%20Unprotected%20Admin%20Functionality%20With%20Unpredictable%20URL/README.md) — same unprotected admin panel, but hidden behind an unpredictable URL
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

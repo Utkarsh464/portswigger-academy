@@ -131,6 +131,12 @@ A regular user can escalate to admin by adding one JSON key. With admin access t
 
 ---
 
+## Related Labs
+
+- [03 - User Role Controlled By Request Parameter](../03%20-%20User%20Role%20Controlled%20By%20Request%20Parameter/README.md) — both derive role/privilege from client-controlled data
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

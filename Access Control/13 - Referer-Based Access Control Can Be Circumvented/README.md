@@ -113,6 +113,12 @@ A low-privilege user can invoke any admin-only action by attaching an admin-look
 
 ---
 
+## Related Labs
+
+- [10 - URL-Based Access Control Can Be Circumvented](../10%20-%20URL-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — authorization decided by a header we fully control (`Referer` here)
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

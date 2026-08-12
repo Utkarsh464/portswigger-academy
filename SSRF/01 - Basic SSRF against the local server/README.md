@@ -99,6 +99,12 @@ An attacker can:
 
 ---
 
+## Related Labs
+
+- [02 - Basic SSRF against another back-end system](../02%20-%20Basic%20SSRF%20against%20another%20back-end%20system/README.md) — same stock-check SSRF primitive; this one targets localhost
+
+---
+
 ## References
 
 - [PortSwigger: SSRF](https://portswigger.net/web-security/ssrf)

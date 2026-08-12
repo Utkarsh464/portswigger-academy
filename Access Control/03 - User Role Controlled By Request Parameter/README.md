@@ -105,6 +105,12 @@ Any user can escalate to admin by modifying a single cookie value. This gives fu
 
 ---
 
+## Related Labs
+
+- [08 - User Role Can Be Modified In User Profile](../08%20-%20User%20Role%20Can%20Be%20Modified%20In%20User%20Profile/README.md) — in both, the user's role is trusted from client-controlled input
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

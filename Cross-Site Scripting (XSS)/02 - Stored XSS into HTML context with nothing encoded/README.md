@@ -132,6 +132,12 @@ An attacker could submit a payload that steals session cookies and sends them to
 
 ---
 
+## Related Labs
+
+- [01 - Reflected XSS into HTML context with nothing encoded](../01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded/README.md) — same payload context, but the input is persisted and served to others
+
+---
+
 ## References
 
 - [PortSwigger: Stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored)

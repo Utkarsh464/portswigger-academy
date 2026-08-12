@@ -99,6 +99,12 @@ An attacker can:
 
 ---
 
+## Related Labs
+
+- [01 - Basic SSRF against the local server](../01%20-%20Basic%20SSRF%20against%20the%20local%20server/README.md) — same SSRF primitive pointed at an internal back-end instead
+
+---
+
 ## References
 
 - [PortSwigger: SSRF](https://portswigger.net/web-security/ssrf)

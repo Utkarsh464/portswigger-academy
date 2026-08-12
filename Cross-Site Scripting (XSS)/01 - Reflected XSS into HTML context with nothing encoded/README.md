@@ -131,6 +131,12 @@ The attack typically requires social engineering (sending a crafted link), but i
 
 ---
 
+## Related Labs
+
+- [02 - Stored XSS into HTML context with nothing encoded](../02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded/README.md) — same unencoded HTML context; this one reflects instead of storing
+
+---
+
 ## References
 
 - [PortSwigger: Cross-site scripting (XSS)](https://portswigger.net/web-security/cross-site-scripting)

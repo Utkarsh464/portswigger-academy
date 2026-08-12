@@ -144,6 +144,13 @@ A low-privilege user can promote their own account to administrator. In a real a
 
 ---
 
+## Related Labs
+
+- [10 - URL-Based Access Control Can Be Circumvented](../10%20-%20URL-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — same goal of bypassing a flawed check; here by switching HTTP method
+- [13 - Referer-Based Access Control Can Be Circumvented](../13%20-%20Referer-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — same gap: a check applied only on part of the request surface
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

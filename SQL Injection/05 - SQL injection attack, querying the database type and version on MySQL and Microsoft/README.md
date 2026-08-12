@@ -178,6 +178,13 @@ Because `@@version` reveals the exact type and version, dropping the remaining s
 
 ---
 
+## Related Labs
+
+- [03 - SQL injection attack, querying the database type and version on Oracle](../03%20-%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/README.md) — version fingerprinting with the `UNION` trick on a different backend
+- [06 - SQL injection attack, listing the database contents on non-Oracle databases](../06%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/README.md) — non-Oracle enumeration driven off the same `information_schema`
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection](https://portswigger.net/web-security/sql-injection)

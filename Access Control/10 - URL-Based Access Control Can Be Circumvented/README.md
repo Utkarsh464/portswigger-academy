@@ -150,6 +150,13 @@ An unauthenticated (or low-privilege) user can reach admin-only paths by re-writ
 
 ---
 
+## Related Labs
+
+- [13 - Referer-Based Access Control Can Be Circumvented](../13%20-%20Referer-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — both bypass a front-end access check via a header (`X-Original-URL` vs `Referer`)
+- [11 - Method-Based Access Control Can Be Circumvented](../11%20-%20Method-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — another way of evading an incomplete access-control check
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

@@ -173,6 +173,13 @@ Credentials exfiltration and full administrator account takeover, all without tr
 
 ---
 
+## Related Labs
+
+- [04 - SQL injection UNION attack, determining the number of columns returned by the query](../04%20-%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/README.md) — still a UNION-based injection, smuggled through a WAF via XML encoding
+- [01 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](../01%20-%20SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data/README.md) — same injection point in the category filter
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection](https://portswigger.net/web-security/sql-injection)

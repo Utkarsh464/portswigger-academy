@@ -111,6 +111,12 @@ Same as Lab 01. Any attacker who inspects the page source can find the admin URL
 
 ---
 
+## Related Labs
+
+- [01 - Unprotected Admin Functionality](../01%20-%20Unprotected%20Admin%20Functionality/README.md) — the same admin panel exposure; this variant hides the path (via `robots.txt`)
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

@@ -166,6 +166,13 @@ Knowing the exact database version is a stepping stone: it reveals which known C
 
 ---
 
+## Related Labs
+
+- [08 - SQL injection attack, listing the database contents on Oracle](../08%20-%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/README.md) — same Oracle backend; this fingerprints `v$version`, the other dumps the schema
+- [05 - SQL injection attack, querying the database type and version on MySQL and Microsoft](../05%20-%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/README.md) — the same version-fingerprinting goal against non-Oracle backends
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection](https://portswigger.net/web-security/sql-injection)

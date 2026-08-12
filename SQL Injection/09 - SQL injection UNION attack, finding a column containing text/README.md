@@ -147,6 +147,14 @@ Knowing which columns accept text is the prerequisite for data-dump `UNION` atta
 
 ---
 
+## Related Labs
+
+- [04 - SQL injection UNION attack, determining the number of columns returned by the query](../04%20-%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/README.md) — pick up right after sizing the query and find the text-capable column
+- [10 - SQL injection UNION attack, retrieving data from other tables](../10%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/README.md) — that text column then carries `username`/`password` rows out
+- [11 - SQL injection UNION attack, retrieving multiple values in a single column](../11%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/README.md) — a variant that packs two values into that one column
+
+---
+
 ## References
 
 - [PortSwigger: SQL injection UNION attacks](https://portswigger.net/web-security/sql-injection/union-attacks)
