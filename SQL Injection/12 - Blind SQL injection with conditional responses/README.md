@@ -261,6 +261,12 @@ I logged in with `administrator` and that password, and the lab marked **Solved*
 
 ---
 
+## Related Labs
+
+- [13 - Blind SQL injection with conditional errors](../13%20-%20Blind%20SQL%20injection%20with%20conditional%20errors/README.md) — same blind-extraction goal, but the oracle is a SQL error (`TO_CHAR(1/0)`) on an Oracle backend instead of a visible "Welcome back" message.
+
+---
+
 ## References
 
 - [PortSwigger: Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
