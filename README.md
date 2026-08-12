@@ -35,7 +35,7 @@ it.
 | Path Traversal | 2 / 6 | In progress |
 | Cross-Site Scripting (XSS) | 2 / 30 | In progress |
 | SSRF | 2 / 7 | In progress |
-| SQL Injection | 12 / 18 | In progress |
+| SQL Injection | 13 / 18 | In progress |
 
 ---
 
@@ -93,7 +93,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 
 ### SQL Injection
 
-12 / 18 — in progress
+13 / 18 — in progress
 
 | # | Lab | Difficulty | What it covers |
 |---|---|---|---|
@@ -109,6 +109,7 @@ lab. See `ROADMAP.md` for the full tracked list and remaining labs.
 | 10 | [SQL injection UNION attack, retrieving data from other tables](SQL%20Injection/10%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables) | Practitioner | `UNION SELECT username,password FROM users--` to dump credentials. |
 | 11 | [SQL injection UNION attack, retrieving multiple values in a single column](SQL%20Injection/11%20-%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column) | Practitioner | `\|\|` concatenation to dump `username~password` via one column. |
 | 12 | [Blind SQL injection with conditional responses](SQL%20Injection/12%20-%20Blind%20SQL%20injection%20with%20conditional%20responses) | Practitioner | Boolean oracle via `Welcome back`; `SUBSTRING()` per-character extraction. |
+| 13 | [Blind SQL injection with conditional errors](SQL%20Injection/13%20-%20Blind%20SQL%20injection%20with%20conditional%20errors) | Practitioner | Oracle `CASE WHEN` + `TO_CHAR(1/0)` error oracle; `SUBSTR()` extraction. |
 
 ---
 
