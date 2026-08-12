@@ -201,6 +201,10 @@ This status distinction, not any response body, is the oracle. The screenshot be
 
 ![Intruder result showing HTTP 500 for the successful SUBSTR character match](images/03-character-extraction-http-500.png)
 
+### Validating the Oracle
+
+Before trusting any extracted character, it's worth re-confirming the mechanism on each Sniper run: one 500 and thirty-five 200s per position means the oracle behaved exactly as designed. If a run returned no 500 (or several), the payload template was wrong — for example the position marker or the `SUBSTR` index being off — and the run should be discarded rather than trusted. Status codes, unlike response bodies or lengths, are unambiguous, but they're only trustworthy after the 1=1/1=2 sanity check passes.
+
 I ran Sniper for positions 1–20, each time recording the single 500 response.
 
 ---
