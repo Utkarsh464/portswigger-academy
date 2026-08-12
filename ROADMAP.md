@@ -17,7 +17,7 @@ Checking off labs as I go.
 - [x] SQL injection UNION attack, retrieving data from other tables
 - [x] SQL injection UNION attack, retrieving multiple values in a single column
 - [x] Blind SQL injection with conditional responses
-- [ ] Blind SQL injection with conditional errors
+- [x] Blind SQL injection with conditional errors
 - [ ] Visible error-based SQL injection
 - [ ] Blind SQL injection with time delays
 - [ ] Blind SQL injection with time delays and information retrieval
