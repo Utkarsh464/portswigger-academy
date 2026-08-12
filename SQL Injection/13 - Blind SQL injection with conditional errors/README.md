@@ -281,7 +281,7 @@ Input filtering alone is not a sufficient SQL injection defense — parameteriza
 
 ## Related Tool
 
-- [`blind_sqli.py`](https://github.com/Utkarsh464/cyber-utils/blob/main/blind_sqli.py) — a small Python implementation of this exact conditional-error oracle (`TO_CHAR(1/0)` + `dual`) that automates the length scan and `SUBSTR` per-character extraction with `requests`. Part of my [`cyber-utils`](https://github.com/Utkarsh464/cyber-utils) utilities repo.
+- [`blind_sqli_extractor.py`](https://github.com/Utkarsh464/pentools/blob/main/blind_sqli_extractor.py) — a small Python implementation of this exact conditional-error oracle (`TO_CHAR(1/0)` + `dual`) that automates the length scan and `SUBSTR` per-character extraction with `requests`. Part of my [`pentools`](https://github.com/Utkarsh464/pentools) utilities repo.
 
 ---
 
