@@ -271,6 +271,12 @@ Input filtering alone is not a sufficient SQL injection defense — parameteriza
 
 ---
 
+## Related Labs
+
+- [12 - Blind SQL injection with conditional responses](../12%20-%20Blind%20SQL%20injection%20with%20conditional%20responses/README.md) — the same blind-extraction technique, but the oracle is a visible "Welcome back" message rather than a triggered SQL error.
+
+---
+
 ## References
 
 - [PortSwigger: Blind SQL injection](https://portswigger.net/web-security/sql-injection/blind)
