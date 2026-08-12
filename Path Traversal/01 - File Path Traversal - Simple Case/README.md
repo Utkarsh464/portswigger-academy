@@ -122,6 +122,12 @@ In some cases, path traversal can lead to RCE if the attacker can write files (l
 
 ---
 
+## Related Labs
+
+- [02 - File Path Traversal - Traversal Sequences Blocked with Absolute Path Bypass](../02%20-%20File%20Path%20Traversal%20-%20Traversal%20Sequences%20Blocked%20with%20Absolute%20Path%20Bypass/README.md) — same `../` traversal goal; this is the unfiltered baseline
+
+---
+
 ## References
 
 - [PortSwigger: File path traversal](https://portswigger.net/web-security/file-path-traversal)

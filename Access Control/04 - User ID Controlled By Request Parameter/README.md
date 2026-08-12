@@ -107,6 +107,14 @@ Any authenticated user can view any other user's private data:
 
 ---
 
+## Related Labs
+
+- [05 - User ID Controlled By Request Parameter With Data Leakage In Redirect](../05%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Data%20Leakage%20In%20Redirect/README.md) — same `id`-parameter tampering, data leaked through a redirect
+- [06 - User ID Controlled By Request Parameter With Password Disclosure](../06%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Password%20Disclosure/README.md) — same `id`-parameter tampering exposing user account data
+- [09 - User ID Controlled By Request Parameter With Unpredictable User IDs](../09%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Unpredictable%20User%20IDs/README.md) — same `id`-parameter escalation, but IDs are hard to predict
+
+---
+
 ## References
 
 - [PortSwigger: Access control (IDOR)](https://portswigger.net/web-security/access-control/idor)

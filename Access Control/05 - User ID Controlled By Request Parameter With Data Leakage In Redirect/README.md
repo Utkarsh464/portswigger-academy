@@ -113,6 +113,13 @@ Same as Lab 04 — any authenticated user can access any other user's private da
 
 ---
 
+## Related Labs
+
+- [04 - User ID Controlled By Request Parameter](../04%20-%20User%20ID%20Controlled%20By%20Request%20Parameter/README.md) — same tampered `id` parameter; the result leaks via the redirect
+- [06 - User ID Controlled By Request Parameter With Password Disclosure](../06%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Password%20Disclosure/README.md) — same horizontal escalation exposing user data
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

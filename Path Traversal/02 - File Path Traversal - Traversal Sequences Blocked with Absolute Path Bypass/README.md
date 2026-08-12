@@ -139,6 +139,12 @@ An attacker can read arbitrary server files using absolute paths:
 
 ---
 
+## Related Labs
+
+- [01 - File Path Traversal - Simple Case](../01%20-%20File%20Path%20Traversal%20-%20Simple%20Case/README.md) — same directory-traversal read; this one evades a sequence filter with absolute paths
+
+---
+
 ## References
 
 - [PortSwigger: File path traversal](https://portswigger.net/web-security/file-path-traversal)

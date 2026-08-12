@@ -108,6 +108,12 @@ Any authenticated user can:
 
 ---
 
+## Related Labs
+
+- [04 - User ID Controlled By Request Parameter](../04%20-%20User%20ID%20Controlled%20By%20Request%20Parameter/README.md) — direct access to another user's object through a controlled identifier
+
+---
+
 ## References
 
 - [PortSwigger: IDOR](https://portswigger.net/web-security/access-control/idor)

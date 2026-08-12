@@ -121,6 +121,13 @@ An attacker can:
 
 ---
 
+## Related Labs
+
+- [04 - User ID Controlled By Request Parameter](../04%20-%20User%20ID%20Controlled%20By%20Request%20Parameter/README.md) — same `id`-parameter tampering pattern
+- [05 - User ID Controlled By Request Parameter With Data Leakage In Redirect](../05%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Data%20Leakage%20In%20Redirect/README.md) — same horizontal escalation; the password is disclosed directly
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)

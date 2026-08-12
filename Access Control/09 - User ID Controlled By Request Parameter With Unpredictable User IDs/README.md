@@ -118,6 +118,13 @@ Any authenticated user can view any other user's account page, including API key
 
 ---
 
+## Related Labs
+
+- [04 - User ID Controlled By Request Parameter](../04%20-%20User%20ID%20Controlled%20By%20Request%20Parameter/README.md) — same `id`-parameter escalation; the trick is predicting the GUID
+- [05 - User ID Controlled By Request Parameter With Data Leakage In Redirect](../05%20-%20User%20ID%20Controlled%20By%20Request%20Parameter%20With%20Data%20Leakage%20In%20Redirect/README.md) — same horizontal escalation chain
+
+---
+
 ## References
 
 - [PortSwigger: Horizontal privilege escalation](https://portswigger.net/web-security/access-control#horizontal-privilege-escalation)

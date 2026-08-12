@@ -159,6 +159,13 @@ This illustrates why protecting **only the UI** is insufficient: the mere existe
 
 ---
 
+## Related Labs
+
+- [10 - URL-Based Access Control Can Be Circumvented](../10%20-%20URL-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — an access-control check that leaves one surface unguarded
+- [11 - Method-Based Access Control Can Be Circumvented](../11%20-%20Method-Based%20Access%20Control%20Can%20Be%20Circumvented/README.md) — same idea — find the step where the authorization check is missing
+
+---
+
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
