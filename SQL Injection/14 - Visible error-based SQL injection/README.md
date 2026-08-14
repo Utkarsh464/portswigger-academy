@@ -206,6 +206,7 @@ Input filtering alone is not a sufficient SQL injection defense — parameteriza
 
 ## Related Labs
 
+- [15 - Blind SQL injection with time delays](../15%20-%20Blind%20SQL%20injection%20with%20time%20delays/README.md) — the same blind `TrackingId` injection where the response body reveals nothing; the oracle is response timing via `pg_sleep(10)` on PostgreSQL.
 - [13 - Blind SQL injection with conditional errors](../13%20-%20Blind%20SQL%20injection%20with%20conditional%20errors/README.md) — the same data-extraction goal, but the error oracle is triggered conditionally (`TO_CHAR(1/0)` on Oracle) to exfiltrate the password character by character.
 - [12 - Blind SQL injection with conditional responses](../12%20-%20Blind%20SQL%20injection%20with%20conditional%20responses/README.md) — blind extraction via a visible "Welcome back" boolean oracle instead of error messages.
 

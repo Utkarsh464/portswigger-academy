@@ -19,7 +19,7 @@ Checking off labs as I go.
 - [x] Blind SQL injection with conditional responses
 - [x] Blind SQL injection with conditional errors
 - [x] Visible error-based SQL injection
-- [ ] Blind SQL injection with time delays
+- [x] Blind SQL injection with time delays
 - [ ] Blind SQL injection with time delays and information retrieval
 - [ ] Blind SQL injection with out-of-band interaction
 - [ ] Blind SQL injection with out-of-band data exfiltration
