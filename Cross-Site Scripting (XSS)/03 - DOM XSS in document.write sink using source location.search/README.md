@@ -101,3 +101,36 @@ An attacker can execute arbitrary JavaScript in the victim's browser:
 - **Redirect** — send victim to malicious site
 
 The attack requires the victim to visit a crafted URL, but since the input comes from the URL itself, it's very easy to weaponize.
+
+---
+
+## Mitigation
+
+- Never use `document.write` with untrusted input
+- Use `textContent` or `setAttribute` instead of string concatenation to build DOM elements
+- Encode output before inserting into HTML contexts
+- Implement a Content Security Policy (CSP) to block inline event handlers
+
+---
+
+## Key Takeaways
+
+- DOM XSS doesn't touch the server — server-side encoding alone won't fix it
+- Always check `document.write`, `innerHTML`, `eval`, `setTimeout` with strings, and `location.*` as sources
+- The fix is in the client-side code: use safe DOM APIs instead of string concatenation
+- Even if the server is secure, the client can still be vulnerable
+
+---
+
+## Related Labs
+
+- [01 - Reflected XSS into HTML context with nothing encoded](../01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded/README.md) — same unencoded context but server-side reflection
+- [02 - Stored XSS into HTML context with nothing encoded](../02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded/README.md) — stored variant, persistent across page loads
+
+---
+
+## References
+
+- [PortSwigger: DOM-based XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based)
+- [PortSwigger: Cross-site scripting (XSS)](https://portswigger.net/web-security/cross-site-scripting)
+- [OWASP: DOM based XSS](https://owasp.org/www-community/attacks/xss/#dom-based-xss)
