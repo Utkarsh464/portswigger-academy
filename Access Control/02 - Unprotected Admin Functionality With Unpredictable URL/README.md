@@ -1,10 +1,10 @@
 # Unprotected Admin Functionality With Unpredictable URL
 
-| Field | Value |
-|---|---|
-| **Difficulty** | Apprentice |
-| **Category** | Access Control |
-| **Lab URL** | `https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url` |
+| Field          | Value                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Difficulty** | Apprentice                                                                                                       |
+| **Category**   | Access Control                                                                                                   |
+| **Lab URL**    | `https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url` |
 
 ---
 
@@ -31,9 +31,9 @@ I opened the page source (Ctrl+U). Looked through the HTML. Then I checked the J
 Found this in the main page's JS:
 
 ```javascript
-var adminPanel = document.getElementById('admin-panel');
+var adminPanel = document.getElementById("admin-panel");
 if (adminPanel) {
-    adminPanel.href = '/admin-j6s2d8a4';
+  adminPanel.href = "/admin-j6s2d8a4";
 }
 ```
 
@@ -120,4 +120,4 @@ Same as Lab 01. Any attacker who inspects the page source can find the admin URL
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
-- [OWASP: Client-side URL manipulation](https://owasp.org/www-community/attacks/Client-side_URL_manipulation)
+- [OWASP: Client-side resource manipulation](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation)

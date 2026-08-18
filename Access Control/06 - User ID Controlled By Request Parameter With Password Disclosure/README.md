@@ -1,10 +1,10 @@
 # User ID Controlled By Request Parameter With Password Disclosure
 
-| Field | Value |
-|---|---|
-| **Difficulty** | Apprentice |
-| **Category** | Access Control |
-| **Lab URL** | `https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure` |
+| Field          | Value                                                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Difficulty** | Apprentice                                                                                                                 |
+| **Category**   | Access Control                                                                                                             |
+| **Lab URL**    | `https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure` |
 
 ---
 
@@ -33,7 +33,7 @@ Logged in as `wiener:peter`. Account page at:
 Checked the HTML source. Found a password field:
 
 ```html
-<input type="password" name="password" value="peter" disabled>
+<input type="password" name="password" value="peter" disabled />
 ```
 
 The password is in a disabled input field in the HTML. Disabled means the user can't edit it, but it's still there in the source code.
@@ -131,4 +131,4 @@ An attacker can:
 ## References
 
 - [PortSwigger: Access control](https://portswigger.net/web-security/access-control)
-- [OWASP: Password in HTML Source Code](https://owasp.org/www-community/vulnerabilities/Password_in_HTML_Source_Code)
+- [OWASP: Hardcoded passwords](https://owasp.org/www-community/vulnerabilities/Password_Management_Hardcoded_Password)
