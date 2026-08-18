@@ -66,3 +66,38 @@ Since `location.search` is fully attacker-controlled and `document.write` output
 ```
 
 This closes the `src` attribute with `"`, closes the `img` tag with `>`, then injects an `<svg>` element with an `onload` handler that fires `alert(1)`.
+
+---
+
+## Why It Works
+
+`document.write` is a sink — any string passed to it is parsed as HTML by the browser. The application concatenates `location.search` (which I control via the URL) directly into the HTML string without encoding.
+
+The browser sees:
+
+```html
+<img src="/resources/images/tracking.gif?search="><svg onload=alert(1)">">
+```
+
+The `img` tag closes early, and the injected `svg` element is parsed as a new DOM node. The `onload` event fires immediately.
+
+This is DOM-based XSS — the vulnerability exists entirely in client-side JavaScript. The server isn't involved in the injection, which means server-side filters won't catch it.
+
+---
+
+## Root Cause
+
+Using `document.write` with attacker-controlled input. The developer wanted to track search queries by embedding them in a tracking pixel, but didn't consider that `location.search` can contain arbitrary HTML.
+
+---
+
+## Impact
+
+An attacker can execute arbitrary JavaScript in the victim's browser:
+
+- **Session hijacking** — steal cookies
+- **Phishing** — inject fake login forms
+- **Keylogging** — capture keystrokes
+- **Redirect** — send victim to malicious site
+
+The attack requires the victim to visit a crafted URL, but since the input comes from the URL itself, it's very easy to weaponize.
