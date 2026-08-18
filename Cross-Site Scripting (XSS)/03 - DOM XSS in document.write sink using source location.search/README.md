@@ -45,3 +45,24 @@ document.write(
 ```
 
 Since `location.search` is fully attacker-controlled and `document.write` outputs raw HTML, I can break out of the `img` attribute and inject my own tags. The key difference from reflected XSS: this happens entirely client-side. The server never sees the payload — the browser processes it.
+
+---
+
+## Exploitation Steps
+
+1. Opened the lab
+2. Searched for `test123` and inspected the page source to see where my input landed
+3. Saw my string inside `<img src="...search=test123">`
+4. Constructed a payload that closes the attribute and injects an SVG: `"><svg onload=alert(1)>`
+5. Entered the payload in the search box
+6. Lab solved
+
+---
+
+## Payload
+
+```
+"><svg onload=alert(1)>
+```
+
+This closes the `src` attribute with `"`, closes the `img` tag with `>`, then injects an `<svg>` element with an `onload` handler that fires `alert(1)`.
