@@ -1,10 +1,10 @@
 # Blind SQL injection with time delays
 
-| Field | Value |
-|---|---|
-| **Difficulty** | Practitioner |
-| **Category** | SQL Injection (Blind) |
-| **Lab URL** | `https://portswigger.net/web-security/sql-injection/blind/lab-sql-injection-time-delays` |
+| Field          | Value                                                                      |
+| -------------- | -------------------------------------------------------------------------- |
+| **Difficulty** | Practitioner                                                               |
+| **Category**   | SQL Injection (Blind)                                                      |
+| **Lab URL**    | `https://portswigger.net/web-security/sql-injection/blind/lab-time-delays` |
 
 ---
 
@@ -56,13 +56,13 @@ Cookie: TrackingId=xyz'||pg_sleep(10)--
 
 Broken down:
 
-| Token | Role |
-|---|---|
-| `xyz` | placeholder original value (kept) |
-| `'` | closes the string literal that the app opened |
-| `\|\|` | PostgreSQL string concatenation — joins my expression into the query |
-| `pg_sleep(10)` | pauses the database session for 10 seconds |
-| `--` | SQL comment — neutralizes the trailing `'` and everything after it |
+| Token          | Role                                                                 |
+| -------------- | -------------------------------------------------------------------- |
+| `xyz`          | placeholder original value (kept)                                    |
+| `'`            | closes the string literal that the app opened                        |
+| `\|\|`         | PostgreSQL string concatenation — joins my expression into the query |
+| `pg_sleep(10)` | pauses the database session for 10 seconds                           |
+| `--`           | SQL comment — neutralizes the trailing `'` and everything after it   |
 
 Without the `--`, the leftover closing quote at the end of the original query would produce a syntax error. The comment swallows the tail so the injected expression is the last thing the database parses.
 
@@ -100,12 +100,12 @@ Congratulations, you solved the lab!
 
 The `pg_sleep()` function is **PostgreSQL-specific**. The equivalent delay primitives on other backends are:
 
-| Database | Delay primitive |
-|---|---|
-| PostgreSQL | `pg_sleep(10)` |
-| MySQL / MariaDB | `SLEEP(10)` |
-| Microsoft SQL Server | `WAITFOR DELAY '0:0:10'` |
-| Oracle | `dbms_pipe.receive_message(('a'), 10)` or a deliberately expensive query (Cartesian product) |
+| Database             | Delay primitive                                                                              |
+| -------------------- | -------------------------------------------------------------------------------------------- |
+| PostgreSQL           | `pg_sleep(10)`                                                                               |
+| MySQL / MariaDB      | `SLEEP(10)`                                                                                  |
+| Microsoft SQL Server | `WAITFOR DELAY '0:0:10'`                                                                     |
+| Oracle               | `dbms_pipe.receive_message(('a'), 10)` or a deliberately expensive query (Cartesian product) |
 
 The syntax around the primitive is database-specific too — Oracle and PostgreSQL use `||` for concatenation, whereas SQL Server uses `+`, and each backend has its own comment syntax (`--` is widely supported).
 
@@ -113,7 +113,7 @@ The syntax around the primitive is database-specific too — Oracle and PostgreS
 
 ## Key Takeaways
 
-- **Blind doesn't mean undetectable** — when the response body reveals nothing, the response *time* can still be the oracle.
+- **Blind doesn't mean undetectable** — when the response body reveals nothing, the response _time_ can still be the oracle.
 - **Synchronous queries leak timing** — a server-side sleep that holds the query also holds the HTTP response; that correlation is the vulnerability's fingerprint.
 - **Escape, splice, comment** — close the string (`'`), join in your expression (`||`), and neutralize the tail (`--`).
 - **Backend fingerprinting matters** — the delay function is different on every database (`pg_sleep` vs `SLEEP` vs `WAITFOR DELAY` vs `dbms_pipe.receive_message`); knowing the backend dictates the payload.

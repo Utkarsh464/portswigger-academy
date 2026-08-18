@@ -1,10 +1,10 @@
 # Basic SSRF against another back-end system
 
-| Field | Value |
-|---|---|
-| **Difficulty** | Apprentice |
-| **Category** | SSRF |
-| **Lab URL** | `https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-another-back-end-system` |
+| Field          | Value                                                                             |
+| -------------- | --------------------------------------------------------------------------------- |
+| **Difficulty** | Apprentice                                                                        |
+| **Category**   | SSRF                                                                              |
+| **Lab URL**    | `https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-backend-system` |
 
 ---
 
@@ -65,6 +65,7 @@ The server fetches whatever URL is supplied in `stockApi` without restricting th
 ## Root Cause
 
 The developer trusted user input in the `stockApi` parameter without:
+
 - Whitelisting allowed hosts or URL patterns
 - Restricting outbound requests to known internal services
 - Validating the IP range of the destination
@@ -74,6 +75,7 @@ The developer trusted user input in the `stockApi` parameter without:
 ## Impact
 
 An attacker can:
+
 - Scan internal IP ranges by observing response differences
 - Discover and interact with internal admin interfaces
 - Perform state-changing actions through the vulnerable server
