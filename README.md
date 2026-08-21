@@ -33,7 +33,7 @@ it.
 | -------------------------- | ----------- | ----------- |
 | Access Control             | 13 / 13     | Completed   |
 | Path Traversal             | 2 / 6       | In progress |
-| Cross-Site Scripting (XSS) | 2 / 30      | In progress |
+| Cross-Site Scripting (XSS) | 3 / 30      | In progress |
 | SSRF                       | 2 / 7       | In progress |
 | SQL Injection              | 15 / 18     | In progress |
 
@@ -75,12 +75,13 @@ _13 / 13 — completed_
 
 ### Cross-Site Scripting (XSS)
 
-2 / 30 — in progress
+3 / 30 — in progress
 
-| #   | Lab                                                                                                                                                                    | Difficulty | What it covers                                      |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- |
-| 1   | [Reflected XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded) | Apprentice | Inject and reflect script via the search input.     |
-| 2   | [Stored XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)       | Apprentice | Stored payload triggers when the content is viewed. |
+| #   | Lab                                                                                                                                                                                  | Difficulty | What it covers                                                                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------------------------------------------------------------ |
+| 1   | [Reflected XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)               | Apprentice | Inject and reflect script via the search input.                                |
+| 2   | [Stored XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)                     | Apprentice | Stored payload triggers when the content is viewed.                            |
+| 3   | [DOM XSS in document.write sink using source location.search](Cross-Site%20Scripting%20%28XSS%29/03%20-%20DOM%20XSS%20in%20document.write%20sink%20using%20source%20location.search) | Apprentice | DOM-based XSS via `document.write` reflecting `location.search` into the page. |
 
 ### SSRF
 
@@ -112,55 +113,3 @@ _13 / 13 — completed_
 | 13  | [Blind SQL injection with conditional errors](SQL%20Injection/13%20-%20Blind%20SQL%20injection%20with%20conditional%20errors)                                                                                                 | Practitioner | Oracle `CASE WHEN` + `TO_CHAR(1/0)` error oracle; `SUBSTR()` extraction.        |
 | 14  | [Visible error-based SQL injection](SQL%20Injection/14%20-%20Visible%20error-based%20SQL%20injection)                                                                                                                         | Practitioner | `CAST()` type-conversion errors leak `users` credentials via verbose DB errors. |
 | 15  | [Blind SQL injection with time delays](SQL%20Injection/15%20-%20Blind%20SQL%20injection%20with%20time%20delays)                                                                                                               | Practitioner | `pg_sleep()` time-delay oracle to infer boolean conditions.                     |
-
----
-
-## How Each Writeup Is Structured
-
-Every lab writeup follows the same format:
-
-- **Title** — Lab name and difficulty
-- **Category** — Which category it falls under
-- **Lab Objective** — What PortSwigger asks you to do
-- **Skills Learned** — What I took away from it
-- **Recon** — What I checked before exploiting
-- **Finding the Vulnerability** — How I identified the weak point
-- **Exploitation Steps** — Step-by-step walkthrough
-- **Payload(s)** — The actual payloads used
-- **Why It Works** — Technical explanation
-- **Root Cause** — Why the developer made it vulnerable
-- **Impact** — What an attacker could really do with this
-- **Mitigation** — How to fix it
-- **Key Takeaways** — Notes for future testing
-- **References** — Links to docs and further reading
-
----
-
-## What's Next
-
-Working through the remaining labs in order. Next up:
-
-- More Access Control labs (horizontal privilege escalation)
-- More SQL Injection labs
-- More Path Traversal labs
-- Cross-Site Scripting (XSS)
-- CSRF
-- XXE
-
----
-
-## Disclaimer
-
-> These writeups are for educational purposes only. I solved these labs on
-> Portswigger's hosted platform. Do not test vulnerabilities on systems you
-> don't own or have permission to test.
-
----
-
-## Badges
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Utkarsh464/portswigger-academy)
-![GitHub repo size](https://img.shields.io/github/repo-size/Utkarsh464/portswigger-academy)
-![GitHub](https://img.shields.io/github/license/Utkarsh464/portswigger-academy)
-
-Let me know if you spot a mistake. I'm learning too.
