@@ -61,6 +61,8 @@ This is DOM-based XSS: the server never sees the payload, so server-side output 
 5. Clicked "Search"
 6. The broken `src` threw an error, `onerror` fired, `alert(1)` popped, and the lab was solved
 
+![Lab solved — alert triggered via the img onerror payload](images/01-lab-solved.png)
+
 ---
 
 ## Payload
