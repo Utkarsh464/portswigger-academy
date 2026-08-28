@@ -130,6 +130,7 @@ The "blind" part only removes the easy feedback channel; it does not make the bu
 ## Related Labs
 
 - [01 - OS command injection, simple case](../01%20-%20OS%20command%20injection%2C%20simple%20case/README.md) — the same injection class, but the output is returned so you read it directly
+- [03 - Blind OS command injection with output redirection](../03%20-%20Blind%20OS%20command%20injection%20with%20output%20redirection/README.md) — the same blind injection, but capture the output to a file and read it back instead of using a timing oracle
 
 ---
 
