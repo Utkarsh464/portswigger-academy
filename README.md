@@ -20,6 +20,7 @@ it.
   - [Cross-Site Scripting (XSS)](#cross-site-scripting-xss)
   - [SSRF](#ssrf)
   - [SQL Injection](#sql-injection)
+  - [OS Command Injection](#os-command-injection)
 - [How Each Writeup Is Structured](#how-each-writeup-is-structured)
 - [What's Next](#whats-next)
 - [Disclaimer](#disclaimer)
@@ -36,6 +37,7 @@ it.
 | Cross-Site Scripting (XSS) | 5 / 30      | In progress |
 | SSRF                       | 2 / 7       | In progress |
 | SQL Injection              | 15 / 18     | In progress |
+| OS Command Injection       | 1 / 5       | In progress |
 
 ---
 
@@ -115,3 +117,11 @@ _13 / 13 — completed_
 | 13  | [Blind SQL injection with conditional errors](SQL%20Injection/13%20-%20Blind%20SQL%20injection%20with%20conditional%20errors)                                                                                                 | Practitioner | Oracle `CASE WHEN` + `TO_CHAR(1/0)` error oracle; `SUBSTR()` extraction.        |
 | 14  | [Visible error-based SQL injection](SQL%20Injection/14%20-%20Visible%20error-based%20SQL%20injection)                                                                                                                         | Practitioner | `CAST()` type-conversion errors leak `users` credentials via verbose DB errors. |
 | 15  | [Blind SQL injection with time delays](SQL%20Injection/15%20-%20Blind%20SQL%20injection%20with%20time%20delays)                                                                                                               | Practitioner | `pg_sleep()` time-delay oracle to infer boolean conditions.                     |
+
+### OS Command Injection
+
+1 / 5 — in progress
+
+| #   | Lab                                                                                                                              | Difficulty | What it covers                                                |
+| --- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------- |
+| 1   | [OS command injection, simple case](OS%20Command%20Injection/01%20-%20OS%20command%20injection%2C%20simple%20case)                | Apprentice | Inject `\|whoami` via `storeId` in the product stock checker. |
