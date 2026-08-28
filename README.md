@@ -37,7 +37,7 @@ it.
 | Cross-Site Scripting (XSS) | 5 / 30      | In progress |
 | SSRF                       | 2 / 7       | In progress |
 | SQL Injection              | 15 / 18     | In progress |
-| OS Command Injection       | 2 / 5       | In progress |
+| OS Command Injection       | 3 / 5       | In progress |
 
 ---
 
