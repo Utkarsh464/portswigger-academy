@@ -144,7 +144,7 @@ Even "just" reading `whoami` proves the host is compromised at the app's privile
 
 ## Related Labs
 
-- **Blind OS command injection with time delays** — the same injection point, but the output is hidden, so you infer success via timing instead of reading it directly (writeup coming soon).
+- [02 - Blind OS command injection with time delays](../02%20-%20Blind%20OS%20command%20injection%20with%20time%20delays/README.md) — the same injection class, but the output is hidden so you infer success via timing instead of reading it directly.
 
 ---
 

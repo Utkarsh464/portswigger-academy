@@ -147,7 +147,7 @@ Checking off labs as I go.
 ## OS Command Injection (5 labs)
 
 - [x] OS command injection, simple case
-- [ ] Blind OS command injection with time delays
+- [x] Blind OS command injection with time delays
 - [ ] Blind OS command injection with output redirection
 - [ ] Blind OS command injection with out-of-band interaction
 - [ ] Blind OS command injection with out-of-band data exfiltration
