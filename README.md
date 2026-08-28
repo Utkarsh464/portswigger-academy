@@ -37,7 +37,7 @@ it.
 | Cross-Site Scripting (XSS) | 5 / 30      | In progress |
 | SSRF                       | 2 / 7       | In progress |
 | SQL Injection              | 15 / 18     | In progress |
-| OS Command Injection       | 1 / 5       | In progress |
+| OS Command Injection       | 2 / 5       | In progress |
 
 ---
 
@@ -120,8 +120,9 @@ _13 / 13 — completed_
 
 ### OS Command Injection
 
-1 / 5 — in progress
+2 / 5 — in progress
 
-| #   | Lab                                                                                                                              | Difficulty | What it covers                                                |
-| --- | ------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------- |
-| 1   | [OS command injection, simple case](OS%20Command%20Injection/01%20-%20OS%20command%20injection%2C%20simple%20case)                | Apprentice | Inject `\|whoami` via `storeId` in the product stock checker. |
+| #   | Lab                                                                                                                                      | Difficulty   | What it covers                                                           |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------ |
+| 1   | [OS command injection, simple case](OS%20Command%20Injection/01%20-%20OS%20command%20injection%2C%20simple%20case)                       | Apprentice   | Inject `\|whoami` via `storeId` in the product stock checker.            |
+| 2   | [Blind OS command injection with time delays](OS%20Command%20Injection/02%20-%20Blind%20OS%20command%20injection%20with%20time%20delays) | Practitioner | Blind injection in the feedback form; prove it with a `ping` time delay. |
