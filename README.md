@@ -34,7 +34,7 @@ it.
 | -------------------------- | ----------- | ----------- |
 | Access Control             | 13 / 13     | Completed   |
 | Path Traversal             | 2 / 6       | In progress |
-| Cross-Site Scripting (XSS) | 6 / 30      | In progress |
+| Cross-Site Scripting (XSS) | 7 / 30      | In progress |
 | SSRF                       | 2 / 7       | In progress |
 | SQL Injection              | 15 / 18     | In progress |
 | OS Command Injection       | 3 / 5       | In progress |
@@ -77,16 +77,17 @@ _13 / 13 — completed_
 
 ### Cross-Site Scripting (XSS)
 
-6 / 30 — in progress
+7 / 30 — in progress
 
-| #   | Lab                                                                                                                                                                                                                                          | Difficulty   | What it covers                                                                            |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- |
-| 1   | [Reflected XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)                                                                       | Apprentice   | Inject and reflect script via the search input.                                           |
-| 2   | [Stored XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)                                                                             | Apprentice   | Stored payload triggers when the content is viewed.                                       |
-| 3   | [DOM XSS in document.write sink using source location.search](Cross-Site%20Scripting%20%28XSS%29/03%20-%20DOM%20XSS%20in%20document.write%20sink%20using%20source%20location.search)                                                         | Apprentice   | DOM-based XSS via `document.write` reflecting `location.search` into the page.            |
-| 4   | [DOM XSS in document.write sink using source location.search inside a select element](Cross-Site%20Scripting%20%28XSS%29/04%20-%20DOM%20XSS%20in%20document.write%20sink%20using%20source%20location.search%20inside%20a%20select%20element) | Practitioner | DOM-based XSS via `document.write` into a `<select>`; break out with `"></select>`.       |
-| 5   | [DOM XSS in innerHTML sink using source location.search](Cross-Site%20Scripting%20%28XSS%29/05%20-%20DOM%20XSS%20in%20innerHTML%20sink%20using%20source%20location.search)                                                                   | Apprentice   | DOM-based XSS via `innerHTML` reflecting `location.search`; trigger with `<img onerror>`. |
-| 6   | [DOM XSS in jQuery anchor href attribute sink using location.search source](Cross-Site%20Scripting%20%28XSS%29/06%20-%20DOM%20XSS%20in%20jQuery%20anchor%20href%20attribute%20sink%20using%20location.search%20source)                       | Apprentice   | DOM-based XSS via jQuery `$()` setting `href` from `location.search`; `javascript:` URI.  |
+| #   | Lab                                                                                                                                                                                                                                          | Difficulty   | What it covers                                                                                          |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------- |
+| 1   | [Reflected XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/01%20-%20Reflected%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)                                                                       | Apprentice   | Inject and reflect script via the search input.                                                         |
+| 2   | [Stored XSS into HTML context with nothing encoded](Cross-Site%20Scripting%20%28XSS%29/02%20-%20Stored%20XSS%20into%20HTML%20context%20with%20nothing%20encoded)                                                                             | Apprentice   | Stored payload triggers when the content is viewed.                                                     |
+| 3   | [DOM XSS in document.write sink using source location.search](Cross-Site%20Scripting%20%28XSS%29/03%20-%20DOM%20XSS%20in%20document.write%20sink%20using%20source%20location.search)                                                         | Apprentice   | DOM-based XSS via `document.write` reflecting `location.search` into the page.                          |
+| 4   | [DOM XSS in document.write sink using source location.search inside a select element](Cross-Site%20Scripting%20%28XSS%29/04%20-%20DOM%20XSS%20in%20document.write%20sink%20using%20source%20location.search%20inside%20a%20select%20element) | Practitioner | DOM-based XSS via `document.write` into a `<select>`; break out with `"></select>`.                     |
+| 5   | [DOM XSS in innerHTML sink using source location.search](Cross-Site%20Scripting%20%28XSS%29/05%20-%20DOM%20XSS%20in%20innerHTML%20sink%20using%20source%20location.search)                                                                   | Apprentice   | DOM-based XSS via `innerHTML` reflecting `location.search`; trigger with `<img onerror>`.               |
+| 6   | [DOM XSS in jQuery anchor href attribute sink using location.search source](Cross-Site%20Scripting%20%28XSS%29/06%20-%20DOM%20XSS%20in%20jQuery%20anchor%20href%20attribute%20sink%20using%20location.search%20source)                       | Apprentice   | DOM-based XSS via jQuery `$()` setting `href` from `location.search`; `javascript:` URI.                |
+| 7   | [DOM XSS in jQuery selector sink using a hashchange event](Cross-Site%20Scripting%20%28XSS%29/07%20-%20DOM%20XSS%20in%20jQuery%20selector%20sink%20using%20a%20hashchange%20event)                                                           | Apprentice   | DOM-based XSS via jQuery `$()` selector with `location.hash` and `hashchange` event; `print()` payload. |
 
 ### SSRF
 

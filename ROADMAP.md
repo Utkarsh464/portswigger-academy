@@ -32,7 +32,7 @@ Checking off labs as I go.
 - [x] DOM XSS in `document.write` sink using source `location.search`
 - [x] DOM XSS in `innerHTML` sink using source `location.search`
 - [x] DOM XSS in jQuery anchor `href` attribute sink using `location.search` source
-- [ ] DOM XSS in jQuery selector sink using a hashchange event
+- [x] DOM XSS in jQuery selector sink using a hashchange event
 - [ ] Reflected XSS into attribute with angle brackets HTML-encoded
 - [ ] Stored XSS into anchor `href` attribute with double quotes HTML-encoded
 - [ ] Reflected XSS into a JavaScript string with angle brackets HTML encoded
